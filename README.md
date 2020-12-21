@@ -2,9 +2,7 @@
 
 ## Summary
 My personal website!
-
 See my university experience, work experience, and hobbies.  
-You may also reach out to me via social media (shown in footer).
 
 ## Website Location
 You can find my website at: https://mariopal97.github.io
