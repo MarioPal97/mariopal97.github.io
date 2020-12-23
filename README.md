@@ -13,4 +13,5 @@ This is currently a ***WORK IN PROGRESS (WIP)***. Please note that because of th
 
 ### Other Details
 I am using an Angular Framework
+
 Created: December 2021
