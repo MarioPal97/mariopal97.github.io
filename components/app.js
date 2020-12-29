@@ -4,15 +4,15 @@
         .module('app')
         .controller('app', app);
     
-        function app () {
+        class app {
+        constructor() {
             var vm = this;
-
             vm.activate = activate;
+            activate();
 
-            activate(); 
-
-            function activate () {
+            function activate() {
                 console.log('app js ---------???');
             }
         }
+    }
 })(); 
