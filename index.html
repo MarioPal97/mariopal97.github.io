@@ -14,9 +14,13 @@
         display: none!important;
       }
     </style>
+    <div ng-init="hello = 'world'">
+        <h1>{{hello}}</h1>
+    </div>
     <!-- Homepage -->
-    <script src="/home/home.module.js"></script>
-    <script src="/home/config.route.js"></script>
-    <script src="/home/home.js"></script>
+    <script src="/components/home/home.module.js"></script>
+    <script src="/components/home/config.route.js"></script>
+    <script src="/components/home/home.js"></script>
+    <script scr="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
   </head>
 </html>
