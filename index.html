@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width">
     <base href="/">
     <title data-ng-bind="title"></title>
+    <div ng-init="hello='World'">
+      <h1>{{hello}}</h1>
+  </div>
     <style>
       /* Helps ng-show/ng-hide start at the right place
        * Angular needs this to load, and give us class early
@@ -14,9 +17,6 @@
         display: none!important;
       }
     </style>
-    <div ng-init="hello='world'">
-        <h1>{{hello}}</h1>
-    </div>
     <!-- Homepage -->
     <script src="/components/home/home.module.js"></script>
     <script src="/components/home/config.route.js"></script>
