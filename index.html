@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width">
     <base href="/">
     <title data-ng-bind="title"></title>
+
+    <!-- Scirpts  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+
     <!-- <style>
       /* Helps ng-show/ng-hide start at the right place
        * Angular needs this to load, and give us class early
@@ -17,7 +24,7 @@
     <body ng-controller="app">
       <h1>{{hello}}</h1>
     </body>
-    <div class='col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main'>
+    <div class='col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2'>
       <div ng-init="hello='world'">
         <h1>{{hello}}</h1>
         <input type="text" ng-model="hello"/>
@@ -32,6 +39,5 @@
     <script src="/components/home/home.module.js"></script>
     <script src="/components/home/config.route.js"></script>
     <script src="/components/home/home.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
   </head>
 </html>
