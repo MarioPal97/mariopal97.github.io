@@ -13,5 +13,7 @@ This is currently a ***WORK IN PROGRESS (WIP)***. Please note that because of th
 
 1). Implement a working Angualr JS Framework
 
+2). Create a homepage
+
 ### Other Details
 Created: December 2021
