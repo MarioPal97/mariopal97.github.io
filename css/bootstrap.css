@@ -220,12 +220,7 @@ th {
   a[href^="javascript:"]:after {
     content: "";
   }
-  splitContainer{
-      <div class = "row">
-          <div class = "col-sm-6"></div>
-          <div class = "col-sm-6"></div>
-      </div>
-  }
+
   pre,
   blockquote {
     border: 1px solid #999;
