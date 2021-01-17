@@ -35,6 +35,10 @@ section,
 summary {
   display: block;
 }
+q{
+    margin: auto;
+
+}
 audio,
 canvas,
 progress,
