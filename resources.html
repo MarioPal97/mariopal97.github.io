@@ -33,27 +33,21 @@
             </div>
         </div>
 
-        <div class="container">
-          <h3>Popover Example</h3>
-            <a href="#" title="Dismissible popover" data-toggle="popover" data-trigger="focus" data-content="Click anywhere in the document to close this popover">Click me</a>
-        </div>
-        
-        <script>
-        $(document).ready(function(){
-            $('[data-toggle="popover"]').popover();   
-        });
-        </script>
-
         <div class="container-fluid">
           <div class="row content">
             <div class="col-sm-3">
               <h2>Hotline Phone Numbers</h2>
               <ul class="nav nav-pills nav-stacked">
-                <li><a>National Suicide Prevention Lifeline:</a></li>
-                <li><a href="#section2">Veterans Crisis Line:</a></li>
-                <li><a href="#section3">National Eating Disorder Association:</a></li>
-                <li><a href="#section4">Mental Illness Hotline:</a></li>
-                <li><a href="#section5">The Trevor Project:</a></li>
+                <li><a href="#section1" title="Phone Number" data-toggle="popover" data-trigger="focus" 
+                  data-content="(800) 273-8255">National Suicide Prevention Lifeline:</a></li>
+                <li><a href="#section2" title="Phone Number" data-toggle="popover" data-trigger="focus" 
+                  data-content="(800) 273-8255">Veterans Crisis Line:</a></li>
+                <li><a href="#section3" title="Phone Number" data-toggle="popover" data-trigger="focus" 
+                  data-content="(800) 931-2237">National Eating Disorder Association:</a></li>
+                <li><a href="#section4" title="Phone Number" data-toggle="popover" data-trigger="focus" 
+                  data-content="(800) 950-6264">Mental Illness Hotline:</a></li>
+                <li><a href="#section5" title="Phone Number" data-toggle="popover" data-trigger="focus" 
+                  data-content="(800) 273-8255, Press 1 (ONE)">The Trevor Project:</a></li>
               </ul><br>
             </div>
             <br>
@@ -127,5 +121,11 @@
             </div>
           </div>
         </div>
+        
+        <script>
+          $(document).ready(function(){
+              $('[data-toggle="popover"]').popover();   
+          });
+          </script>
     </body>
 </html>
