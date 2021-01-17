@@ -17,7 +17,7 @@
 	#SSC {color: #f1c40f; background-color: #16a085;}
 </style>
 
-<body>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
 	<!-- Nav Bar -->
 	<nav class="navbar navbar-inverse">
         <div class="container-fluid">
@@ -35,16 +35,26 @@
 
 	<div class="container-fluid">
 		<div class="row content">
-		  <div class="col-sm-3 sidenav" data-spy="scroll" data-target="#myScrollspy" data-offset="2">
+		  <div class="col-sm-3 sidenav" id="myScrollspy">
 			<h4>Questions List</h4>
 			<ul class="nav nav-pills nav-stacked">
-				<li class="active"><a href="">Question 1</a></li>
-				<li><a href="">Question 2</a></li>
-				<li><a href="">Question 3</a></li>
+				<li><a href="#Quest1">Question One</a></li>
+				<li><a href="#Quest2">Question Two</a></li>
+				<li><a href="#Quest3">Question Three</a></li>
+				<li><a href="#Quest4">Question Four</a></li>
+				<li><a href="#Quest5">Question Five</a></li>
+				<li><a href="#Quest6">Question Six</a></li>
+				<li><a href="#Quest7">Question Seven</a></li>
+				<li><a href="#Quest8">Question Eight</a></li>
+				<li><a href="#Quest9">Question Nine</a></li>
+				<li><a href="#Quest10">Question Ten</a></li>
+				<li><a href="#Quest11">Question Eleven</a></li>
+				<li><a href="#Quest12">Question Twelve</a></li>
 		  </div>
 
 <!-- Try Using this as a template, you can copy and paste to add more questions just edit the fields -->
 		  <div class="col-sm-9">
+			<div id="Quest1">
 			<h4><small>Question 1</small></h4>
 			<hr>
 			<h2>Are you feeling nervous?</h2>
@@ -55,8 +65,10 @@
 				  <option>No</option>
 				</select>
 			</div>
+			</div>
 			<br><br>
 			<hr>
+			<div id="Quest2">
 			  <h4><small>Question 2</small></h4>
 			  <hr>
 			  <h2>Are you panicing?</h2>
@@ -67,6 +79,7 @@
 					  <option>No</option>
 				  </select>
 			  </div>
+			</div>
 			  <br><br>
 			  <hr>
 			  <h4><small>Question 3</small></h4>
@@ -180,8 +193,9 @@
 			  </div>
 			  <br><br>
 			  <hr>
-		  </div>
-			<!-- Try Using this as a template Do not code below this-->
+		  	</div>
+			</div>
+<!-- Try Using this as a template Do not code below this-->
 		</div>
 	  </div>
 </body>
